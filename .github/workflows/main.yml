@@ -13,5 +13,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: flovidrawproject
-        password: TH(Pf!%k%@Rp33Qnu5vu
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
